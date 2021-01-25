@@ -1,0 +1,37 @@
+/* Фоновые цвета*/
+$color-bg-dark: #1b2d37;
+$color-bg-blue: #00b2ff;
+$color-bg-white: #ffffff;
+$color-bg-overlay: rgba(0, 0, 0, 0.6);
+$color-border: #c4c4c4;
+$color-card-border: #ebebeb;
+$color-btn: #00b2ff;
+$color-input: rgba(255, 255, 255, 0.1);
+$color-input-hover: rgba(255, 255, 255, 0.2);
+
+
+/* цвета */
+$color-text-white: #ffffff;
+$color-text-default: #666666;
+$color-text-dark: #1b2d37;
+$color-text-title: #203c42;
+$color-text-subtitle: #788891;
+
+
+/* шрифты */
+$font-primary: "PT Mono", "Georgia", serif;
+$font-title: "Roboto Condensed", "Arial", sans-serif;
+$font-subtitle: "Roboto", "Arial", sans-serif;
+
+/* размеры */
+$mobile-width: 320px;
+$only-mobile-width: 767px;
+$tablet-width: 768px;
+$only-tablet-width: 1023px;
+$desktop-width-min: 1024px;
+$only-desktop-width: 1229px;
+$desktop-width: 1280px;
+
+/* разрешение */
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
