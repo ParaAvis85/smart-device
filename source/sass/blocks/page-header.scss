@@ -24,8 +24,8 @@
 }
 
 .page-header__logo-link {
-  display: block;
-  width: 202px;
+  display: flex;
+  width: 300px;
   height: 52px;
 
   &:hover,
@@ -54,6 +54,38 @@
       width: 32px;
       height: 32px;
     }
+  }
+}
+
+.page-header__logo-wrapper p {
+  font-family: $font-title;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0;
+  color: $color-text-white;
+  margin: 0;
+  padding-left: 16px;
+
+  @media (max-width: $mobile-width-max) {
+    display: none;
+  }
+}
+
+.page-header__logo-wrapper span {
+  font-family: $font-subtitle;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0;
+  color: $color-text-subtitle;
+  margin: 0;
+  padding-left: 16px;
+
+  @media (max-width: $mobile-width-max) {
+    display: none;
   }
 }
 
