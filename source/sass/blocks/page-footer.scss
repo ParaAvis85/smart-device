@@ -1,0 +1,99 @@
+.page-footer {
+  background-color: $color-bg-footer;
+}
+
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+  padding-right: 19px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+}
+
+.page-footer__base {
+  flex-shrink: 3;
+  width: 416px;
+  min-width: 216px;
+}
+
+.page-footer__logo-link {
+  @include image-size(215px, 52px);
+  display: flex;
+  margin-bottom: 54px;
+  margin-left: -5px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.page-footer__logo {
+  &--desktop {
+    @include image-size (52px, 52px);
+  }
+
+  @media (max-width: $mobile-width-max) {
+    &--mobile {
+      @include image-size (32px, 32px);
+    }
+  }
+}
+
+.page-footer__logo-wrapper p {
+  @include text (25px, 29px);
+  font-family: $font-title;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: $color-text-title;
+  margin: 0;
+  padding-left: 16px;
+
+  @media (max-width: $mobile-width-max) {
+    display: none;
+  }
+}
+
+.page-footer__logo-wrapper span {
+  @include text (12px, 14px);
+  font-family: $font-subtitle;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $color-text-subtitle;
+  margin: 0;
+  padding-left: 16px;
+
+  @media (max-width: $mobile-width-max) {
+    display: none;
+  }
+}
+
+
+.page-footer__years {
+  display: none;
+}
+
+.page-footer__social {
+  width: 112px;
+}
+
+.page-footer__nav {
+  @include zero-indent;
+  flex-shrink: 5;
+  width: 558px;
+}
+
+.page-footer__contacts {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-shrink: 2;
+  width: 425px;
+}

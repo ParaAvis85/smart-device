@@ -1,0 +1,48 @@
+.contacts__heading-block {
+  margin-bottom: 25px;
+}
+
+.contacts__header {
+  @include text (15px, 16px);
+  font-family: $font-title;
+  font-weight: 400;
+  display: block;
+  width: 333px;
+  margin: 0;
+  letter-spacing: 0.78px;
+  text-transform: uppercase;
+  color: $color-text-dark;
+  padding-left: 2.4px;
+}
+
+.contacts__list {
+  @include zero-indent;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contacts__item {
+  @include text (15px, 25px);
+  list-style: none;
+  font-style: normal;
+  opacity: 0.5;
+  color: $color-text-dark;
+}
+
+.contacts__link {
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.contacts__toggle {
+  display: none;
+}
