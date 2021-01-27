@@ -1,6 +1,17 @@
 .nav__heading-block {
   margin-bottom: 25px;
   padding-left: 2px;
+
+  @media (max-width: $mobile-width-max) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 24px;
+    padding-right: 13px;
+    padding-bottom: 23px;
+    padding-left: 15px;
+  }
 }
 
 .nav__header {
@@ -22,6 +33,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (max-width: $mobile-width-max) {
+    padding-right: 15px;
+    padding-bottom: 26px;
+    padding-left: 15px;
+  }
 }
 
 .nav__item {
