@@ -70,3 +70,23 @@
     display: none;
   }
 }
+
+.intro__scroll-button {
+  font-size: 14px;
+  position: absolute;
+  bottom: 126px;
+  left: -22px;
+  display: block;
+  transform: rotate(-90deg);
+  opacity: 0.5;
+  color: white;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
