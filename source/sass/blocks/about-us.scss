@@ -1,0 +1,129 @@
+.about-us {
+  position: relative;
+  min-height: 320px;
+  padding-top: 28px;
+  padding-right: 145px;
+  padding-bottom: 100px;
+  padding-left: 318px;
+
+  @media (max-width: $tablet-width-max) {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 73px;
+    padding-left: 213px;
+  }
+
+  @media (max-width: $mobile-width-max) {
+    padding-top: 14px;
+    padding-right: 11px;
+    padding-bottom: 55px;
+    padding-left: 14px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 108px;
+    width: 220px;
+    height: 317px;
+    background-image: url("../img/about-year.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/about-year@2x.png");
+      background-size: 220px 317px;
+    }
+
+    @media (max-width: $tablet-width-max) {
+      @include image-size (251px, 361px);
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 0;
+      background-image: url("../img/about-year.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/about-year@2x.png");
+        background-size: 244px 362px;
+      }
+    }
+
+    @media (max-width: $mobile-width-max) {
+      content: none;
+    }
+  }
+}
+
+.about-us__header {
+  @include text (36px, 50px);
+  font-family: $font-title;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 21px;
+
+  @media (max-width: $tablet-width-max) {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+}
+
+.about-us__text {
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 21px;
+
+  @media (max-width: $tablet-width-max) {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: $tablet-width-max) {
+    margin-bottom: 40px;
+    padding-left: 3px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 38px;
+
+    @media (max-width: $tablet-width-max) {
+      margin-bottom: 41px;
+    }
+
+    @media (max-width: $tablet-width-max) {
+      margin-bottom: 28px;
+    }
+  }
+}
+
+.about-us__responsive-text {
+  &--tablet {
+    display: none;
+
+    @media (max-width: $tablet-width-max) {
+      display: inline;
+    }
+  }
+
+  &--desktop {
+    @media (max-width: $tablet-width-max) {
+      display: none;
+    }
+  }
+}
+
+.about-us__button {
+  width: 180px;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  letter-spacing: 0.7px;
+  color: $color-btn;
+  border-color: $color-btn;
+
+  @media (max-width: $tablet-width-max) {
+    margin-left: 3px;
+  }
+}
