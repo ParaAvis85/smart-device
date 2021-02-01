@@ -146,24 +146,25 @@
         </ul>
       </div>
     </section>
-    <section class="ask-us">
+    <section class="ask-us" id="ask-us">
       <h2 class="visually-hidden">Бесплатная консультация</h2>
       <div class="ask-us__wrapper container">
         <div class="ask-us__wrapper-column">
           <h3 class="ask-us__header">Остались вопросы? Задайте их нам!</h3>
           <b class="ask-us__header-desc">Мы проконсультируем Вас бесплатно</b>
-          <form class="ask-us__form form">
+          <form class="ask-us__form form" method="POST">
             <label class="visually-hidden" for="ask-us-name">Введите Ваше имя:</label>
             <input type="text" name="name" placeholder="Имя" id="ask-us-name" required>
             <label class="visually-hidden" for="ask-us-phone">Введите Ваш номер телефона:</label>
             <input type="tel" name="phone" placeholder="Телефон" pattern="[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" data-inputmask="+{7}(000)000-00-00" id="ask-us-phone" required>
-            <label class="vissualy-hidden" for="ask-us-question">Введите Ваш вопрос:</label>
-            <textarea name="question" cols="30" rows="6" placeholder="Ваш вопрос" id="ask-us-question" required></textarea>
+            <label class="visually-hidden" for="ask-us-question">Введите Ваш вопрос:</label>
+            <textarea name="question" cols="30" rows="6"
+                placeholder="Ваш вопрос" id="ask-us-question" required></textarea>
             <button class="button" type="submit">Задать вопрос</button>
             <label class="form__checkbox">
-              <input class="visualy-hidden" type="checkbox"
-              name="agreement" required>
-              <span class="">Я согласен на обработку персональных данных</span>
+              <input class="visually-hidden" type="checkbox" name="agreement" required>
+              <span class=""></span>
+              Я согласен на обработку персональных данных
             </label>
           </form>
         </div>

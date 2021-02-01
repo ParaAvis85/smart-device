@@ -10,9 +10,9 @@
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image:
-      url("../img/bg-header-board-desktop@2x.png"),
+      url("../img/bg-header-card@2x.png"),
       url("data:image/svg+xml,%3Csvg fill='none' height='641' viewBox='0 0 671 641' width='671' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m626.842 159.584-274.675 475.75-274.6747-475.75z' opacity='.2' stroke='%23fff'/%3E%3Cpath d='m347.148 357.75-160.648 278.25-160.6477-278.25z' opacity='.2' stroke='%23fff'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='77' cy='159' r='5'/%3E%3Ccircle cx='26' cy='358' r='5'/%3E%3Ccircle cx='187' cy='636' r='5'/%3E%3Ccircle cx='352' cy='635' r='5'/%3E%3Ccircle cx='627' cy='159' r='5'/%3E%3C/g%3E%3C/svg%3E"),
-      url("../img/bg-header-desktop@2x.png");
+      url("../img/bg-header@2x.png");
     background-position: calc(50% + 431px) 258px, calc(50% + 406px) 118px, center top;
     background-size: 705px 515px, 671px 641px, cover;
   }
@@ -28,9 +28,9 @@
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       min-height: 686px;
       background-image:
-        url("../img/bg-header-board-desktop@2x.png"),
+        url("../img/bg-header-card@2x.png"),
         url("data:image/svg+xml,%3Csvg fill='none' height='641' viewBox='0 0 671 641' width='671' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m626.842 159.584-274.675 475.75-274.6747-475.75z' opacity='.2' stroke='%23fff'/%3E%3Cpath d='m347.148 357.75-160.648 278.25-160.6477-278.25z' opacity='.2' stroke='%23fff'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='77' cy='159' r='5'/%3E%3Ccircle cx='26' cy='358' r='5'/%3E%3Ccircle cx='187' cy='636' r='5'/%3E%3Ccircle cx='352' cy='635' r='5'/%3E%3Ccircle cx='627' cy='159' r='5'/%3E%3C/g%3E%3C/svg%3E"),
-        url("../img/bg-header-desktop@2x.png");
+        url("../img/bg-header@2x.png");
       background-position: calc(30% + 418px) 113px, calc(30% + 368px) 26px, center top;
       background-size: 465px 340px, 529px 441px, cover;
     }
@@ -48,9 +48,9 @@
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image:
-        url("../img/bg-header-board-desktop@2x.png"),
+        url("../img/bg-header-card@2x.png"),
         url("data:image/svg+xml,%3Csvg fill='none' height='641' viewBox='0 0 671 641' width='671' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m626.842 159.584-274.675 475.75-274.6747-475.75z' opacity='.2' stroke='%23fff'/%3E%3Cpath d='m347.148 357.75-160.648 278.25-160.6477-278.25z' opacity='.2' stroke='%23fff'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='77' cy='159' r='5'/%3E%3Ccircle cx='26' cy='358' r='5'/%3E%3Ccircle cx='187' cy='636' r='5'/%3E%3Ccircle cx='352' cy='635' r='5'/%3E%3Ccircle cx='627' cy='159' r='5'/%3E%3C/g%3E%3C/svg%3E"),
-        url("../img/bg-header-desktop@2x.png");
+        url("../img/bg-header@2x.png");
       background-position: calc(90% + 9px) 92px, calc(55% + 254px) 7px, center top;
       background-size: 301px 220px, 506px 430px cover;
     }
