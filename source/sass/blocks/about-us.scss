@@ -42,12 +42,12 @@
       position: absolute;
       top: 15px;
       left: 0;
-      background-image: url("../img/about-year.png");
+      background-image: url("../img/about-year-tablet.png");
       background-repeat: no-repeat;
       background-size: auto;
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/about-year@2x.png");
+        background-image: url("../img/about-year-tablet@2x.png");
         background-size: 244px 362px;
       }
     }

@@ -46,6 +46,24 @@
   border-left: 3px solid $color-bg-blue;
   background-color: $color-bg-white;
 
+
+  @media (max-width: $tablet-width-max) {
+    width: 47.9%;
+    min-height: 233px;
+    padding-top: 22px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    border-left: 2px solid $color-bg-blue;
+  }
+
+  @media (max-width: $mobile-width-max) {
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 20px;
+    padding-top: 25px;
+  }
+
   &:hover {
     transition: 0.3 ease-in-out;
     color: $color-text-white;
@@ -104,12 +122,5 @@
       margin-top: 8px;
       margin-bottom: 20px;
     }
-  }
-
-  @media (max-width: $tablet-width-max) {
-    width: 100%;
-    min-height: auto;
-    margin-bottom: 20px;
-    padding-top: 25px;
   }
 }
