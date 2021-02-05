@@ -61,6 +61,14 @@
   }
 
   button {
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+
     width: 100%;
     margin-bottom: 32px;
     padding-top: 14px;
@@ -69,6 +77,15 @@
     color: $color-text-white;
     border: 1px solid $white;
     background-color: $color-bg-blue;
+
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
   }
 
   .form__checkbox {

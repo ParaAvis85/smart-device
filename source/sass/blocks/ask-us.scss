@@ -170,6 +170,24 @@
     border: 1px solid $white;
     background-color: $color-bg-blue;
 
+
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+
     @media (max-width: $mobile-width-max) {
       width: 100%;
       margin-right: 0;
