@@ -198,7 +198,7 @@
     }
   }
 
-  .form__checkbox {
+  & label:last-child {
     line-height: 16px;
     flex-grow: 1;
     width: 167px;

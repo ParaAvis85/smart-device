@@ -31,7 +31,7 @@
   }
 }
 
-.form label {
+.form label:not(:last-child) {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
@@ -44,12 +44,25 @@
   clip-path: inset(100%);
 }
 
-.form__checkbox {
+.form label:last-child {
   font-size: 14px;
   position: relative;
   padding-left: 33px;
   cursor: pointer;
   color: rgba($color: $white, $alpha: 0.8);
+
+  & input {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    border: 0;
+    clip-path: inset(100%);
+  }
 
   &:hover {
     color: rgba($color: $white, $alpha: 1);

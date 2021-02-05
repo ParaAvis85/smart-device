@@ -44,6 +44,17 @@
   display: flex;
   flex-direction: column;
 
+  label:last-child {
+    display: block;
+    width: 360px;
+    margin-bottom: 15px;
+    padding-left: 48px;
+  }
+
+  input[type="checkbox"] + span {
+    top: 3px;
+  }
+
   input[type="text"],
   input[type="tel"],
   textarea {
@@ -86,17 +97,6 @@
     &:active {
       opacity: 0.3;
     }
-  }
-
-  .form__checkbox {
-    display: block;
-    width: 360px;
-    margin-bottom: 15px;
-    padding-left: 48px;
-  }
-
-  input[type="checkbox"] + span {
-    top: 3px;
   }
 }
 
