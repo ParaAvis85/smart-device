@@ -79,6 +79,7 @@
 }
 
 .ask-us__header-desc {
+  @include text (16px, 22px);
   font-weight: 400;
   display: block;
   margin-bottom: 53px;
