@@ -36,6 +36,10 @@
     opacity: 0.3;
   }
 
+  @media (max-width: $tablet-width-max) {
+    @include image-size(285px, 32px);
+  }
+
   @media (max-width: $mobile-width-max) {
     @include image-size(38px, 38px);
   }
@@ -50,6 +54,12 @@
     &--mobile {
       @include image-size(32px, 32px);
     }
+  }
+}
+
+.page-header__logo-wrapper {
+  @media (max-width: $tablet-width-max) {
+    margin-top: 5px;
   }
 }
 
@@ -141,7 +151,8 @@
 
   @media (max-width: $tablet-width-max) {
     font-size: 0;
-    margin-left: 33px;
+    margin-left: 30px;
+    margin-top: 10px;
 
     &--mail a {
       @include image-size(26px, 19px);
