@@ -106,6 +106,10 @@
     }
   }
 
+  &--call {
+    order: 1;
+  }
+
   &--call a {
     width: 180px;
     padding: 12px 0 13px 0;
