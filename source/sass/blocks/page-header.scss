@@ -47,49 +47,13 @@
 
 .page-header__logo {
   &--desktop {
-    @include image-size(52px, 52px);
+    @include image-size(202px, 52px);
   }
 
   @media (max-width: $mobile-width-max) {
     &--mobile {
-      @include image-size(32px, 32px);
+      @include image-size(38px, 38px);
     }
-  }
-}
-
-.page-header__logo-wrapper {
-  @media (max-width: $tablet-width-max) {
-    margin-top: 5px;
-  }
-}
-
-.page-header__logo-wrapper p {
-  @include text (25px, 29px);
-  font-family: $font-title;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0;
-  color: $color-text-white;
-  margin: 0;
-  padding-left: 16px;
-
-  @media (max-width: $mobile-width-max) {
-    display: none;
-  }
-}
-
-.page-header__logo-wrapper span {
-  @include text (12px, 14px);
-  font-family: $font-subtitle;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0;
-  color: $color-text-subtitle;
-  margin: 0;
-  padding-left: 16px;
-
-  @media (max-width: $mobile-width-max) {
-    display: none;
   }
 }
 
