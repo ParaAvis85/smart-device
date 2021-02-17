@@ -70,7 +70,7 @@
   @media (max-width: $mobile-width-max) {
     @include image-size(220px, 52px);
     margin-bottom: 26px;
-    margin-left: -10px;
+    margin-left: 0;
   }
 }
 
