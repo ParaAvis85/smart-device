@@ -51,7 +51,7 @@
   @include image-size(215px, 52px);
   display: flex;
   margin-bottom: 54px;
-  margin-left: -5px;
+  margin-left: 0;
 
   &:hover,
   &:focus {
@@ -76,32 +76,9 @@
 
 .page-footer__logo {
   &--desktop {
-    @include image-size (52px, 52px);
+    @include image-size (216px, 52px);
   }
 }
-
-.page-footer__logo-wrapper p {
-  @include text (25px, 29px);
-  font-family: $font-title;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0;
-  color: $color-text-title;
-  margin: 0;
-  padding-left: 16px;
-}
-
-.page-footer__logo-wrapper span {
-  @include text (12px, 14px);
-  font-family: $font-subtitle;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0;
-  color: $color-text-subtitle;
-  margin: 0;
-  padding-left: 16px;
-}
-
 
 .page-footer__years {
   display: none;
