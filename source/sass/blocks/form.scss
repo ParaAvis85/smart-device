@@ -96,12 +96,12 @@
   background-size: 9px 6px;
 }
 
-.form input[type="checkbox"]:checked + label:last-child::after {
-  display: block;
+.form input[type="checkbox"]:focus + label:last-child::before {
+  outline: 2px solid $white;
 }
 
-.form input[type="checkbox"]:focus + label:last-child::after {
-  border: 1px solid $white;
+.form input[type="checkbox"]:checked + label:last-child::after {
+  display: block;
 }
 
 
