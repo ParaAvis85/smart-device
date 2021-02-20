@@ -61,6 +61,7 @@
     min-height: auto;
     margin-bottom: 20px;
     padding-top: 25px;
+    padding-bottom: 7px;
   }
 
   &:hover {
@@ -121,5 +122,38 @@
       margin-top: 8px;
       margin-bottom: 20px;
     }
+  }
+}
+
+.advantages__item:nth-child(3n+2) {
+  @media (max-width: $mobile-width-max) {
+    padding-right: 12px;
+  }
+}
+
+
+.advantages__item:nth-child(3n+3) {
+  @media (max-width: $mobile-width-max) {
+    padding-right: 15px;
+    padding-bottom: 37px;
+  }
+}
+
+.advantages__item:nth-child(3n+4) {
+  @media (max-width: $mobile-width-max) {
+    margin-bottom: 16px;
+    padding-bottom: 1px;
+  }
+}
+
+.advantages__item:nth-child(3n+3) h3 {
+  @media (max-width: $mobile-width-max) {
+    margin-bottom: 14px;
+  }
+}
+
+.advantages__item:nth-child(3n+4) h3 {
+  @media (max-width: $mobile-width-max) {
+    margin-bottom: 14px;
   }
 }
